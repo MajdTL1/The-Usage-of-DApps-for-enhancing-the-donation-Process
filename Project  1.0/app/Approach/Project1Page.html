@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProjectLastVersion 0 1</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <!-- endbuild -->
+    
+  </head>
+  <body>
+ 
+    <div>
+        <aside class = "asideID" > <a href="../index.html"><img src="../images/ethereum_logo.png" alt="Mountain View" width="100%" height="700" id="myImage"></a> </aside>
+    </div>
+
+    <div class="hero-unitA">
+      <h3>Project 1</h3>
+      
+      <div class="hero-unit">
+        <form>
+          transferToken:<br>
+          <input type="text" name="Project1TransferTo" id="Project1TransferTo1" value = "to">
+          <input type="text" name="Project1TransferTId" id="Project1TransferTId1" value = "tokenId">
+        </form> 
+        <input type="button" id="Project1TransferTo1Btn" value="transfer">
+      </div>
+
+      <div class="hero-unit">
+        <form>
+          Split the  Token:<br>
+          <input type="text" name="ProSplitTokenId" id="ProSplitTokenId1" value = "tokenId">
+          <input type="text" name="ProSplitValue1" id="ProSplitValue1" value = "value 1">
+          <input type="text" name="ProSplitValue2" id="ProSplitValue2" value = "value 2">
+          <input type="button" id="ProDTSplitBtn" value="split">
+          <input type="text" style="background-color:#FCF5D8;" name="ProSplitNewTId" id="ProSplitNewTId2" value = "new tokenId" readonly>
+        </form> 
+      </div>
+
+      <div class="hero-unit">
+        <form>
+          get Status:<br>
+          <input type="button" id="Project1StatusBtn" value="get Status">
+          <input type="text" style="background-color:#FCF5D8;" name="Project1Status" id="Project1StatusID" value = "status" readonly>
+        </form> 
+      </div>
+
+    </div>   
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="../scripts/ApproachProject1.js"></script>
+    <script src="../scripts/util.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

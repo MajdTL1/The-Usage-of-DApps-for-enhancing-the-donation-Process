@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProjectLastVersion 0 1</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <!-- endbuild -->
+    
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div>
+      <aside class = "asideID" > <a href="../index.html"><img src="../images/ethereum_logo.png" alt="Mountain View" width="100%" height="700" id="myImage"></a> </aside>
+    </div>
+
+    <div class ="hero-unitA">
+      <!-- SETs Methods -->
+      <h3> Organaization SECTION</h3>
+      
+      <div class="hero-unit">
+        <form>
+          Regestier a organization:<br>
+          <input type="text" name="_orgregname" id="orgregnameID" value = "name">
+          <input type="text" name="_officAdd" id="officAddID" value = "office Address">
+          <input type="text" name="_webPage" id="webPageID" value = "webPage">
+          <input type="text" name="_contactName" id="contactNameID" value = "contact name">
+          <input type="text" name="_contractPhone" id="contactPhoneID" value = "contact Phone or Mail">
+          <input type="text" name="_foundyear" id="foundyearID" value = "founding year">
+          <input type="button" id="setOrgINfo" value="Reg BasicInfo">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="outputhash" id="txhashID" value = " " readonly>
+        </form> 
+      </div>
+  
+ 
+      
+      <div class="hero-unit">
+        <form>
+          add Addtional infos:<br>
+          <input type="text" name="_mission" id="_missionID" value = "mission: 0x">
+          <input type="text" name="_certificate" id="_certificateID" value = "certificate: 0x">
+          <input type="text" name="_personnelStructure" id="_personnelStructureID" value = "personnelStructure: 0x">
+          <input type="text" name="_currentResource" id="_currentResourceID" value = "currentResource: 0x">
+          <input type="text" name="_institutionallist" id="_institutionallistID" value = "institutionallist: 0x">
+          <input type="text" name="_legalentities" id="_legalentitiesID" value = "legalentities: 0x">
+          <input type="button" id="SETAddInfoButton" value="set Additional Infos">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="output" id="AddInfoOutput" value = "" readonly>
+        </form> 
+      </div>
+  
+      <div class="hero-unit">
+        <form>
+          add Annual Report:<br>
+          <input type="text" name="year" id="_AnnualReportyear" value = "year">
+          <input type="text" name="hashofReport" id="_AnnualReporthash" value = "0x">
+          <input type="button" id="addAnReportBtn" value="add report">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="output1" id="OutputHashAnnualReport" value = " " readonly>
+        </form>  
+      </div>
+  
+      <div class="hero-unit">
+        <form>
+          add decisionmaker:<br>
+          <input type="text" name="DMname" id="_decisionmakerName" value = "name">
+          <input type="text" name="hashofFunction" id="_decisionmakerFunction" value = "0x">
+          <input type="button" id="addDmBtn1" value="add dec maker">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="output2" id="OutputHashdecmaker" value = " " readonly>
+        </form> 
+      </div>
+  
+      <div class="hero-unit">
+        <form>
+          add to Contactlist:<br>
+          <input type="text" name="CLname" id="_Contactlistname" value = "name">
+          <input type="text" name="phoneof" id="_ContactlistPhone" value = " ">
+          <input type="button" id="addtoCLBtn1" value="add to contacts">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="outputtxlistHash" id="Outputcontactlist" value = " " readonly>
+        </form> 
+      </div>
+
+      <div class="hero-unit">
+        <form>
+          close and get fund <br>
+          <input type="button" id="closeIDBtn" value="close">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="closehash" id="closeHashreturn" value = "" readonly>
+        </form>  
+      </div>
+  
+    </div>
+  
+    <!--<button onclick="document.getElementById('myImage').src='./images/ethereum_logo_2.png'">Turn off the light</button>-->
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="../scripts/UseCaseITZOrg.js"></script>
+    <script src="../scripts/util.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

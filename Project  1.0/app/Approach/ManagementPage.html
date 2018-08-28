@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProjectLastVersion 0 1</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <!-- endbuild -->
+    
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div>
+        <aside class = "asideID" > <a href="../index.html"><img src="../images/ethereum_logo.png" alt="Mountain View" width="100%" height="700" id="myImage"></a> </aside>
+    </div>
+
+    <div class="hero-unitA">
+      <h3>Management</h3>
+
+      <div class="hero-unit">
+        <form>
+          add a Project:<br>
+          <input type="text" name="MainOrgProAddr" id="MainOrgProAddr1" value = "addr">
+          <input type="text" name="MainOrgProAmount" id="MainOrgProAmount1" value = "amount">
+        </form> 
+        <input type="button" id="MainOrgAddProjBtn" value="add">
+      </div>
+
+      <div class="hero-unit">
+        <form>
+          remove Project:<br>
+          <input type="text" name="ManageremoveProjAddr" id="ManageremoveProjAddr1" value = "addr">
+        </form> 
+        <input type="button" id="ManageremoveProj1Btn" value="remove">
+      </div>
+
+      <div class="hero-unit">
+        <form>
+          set current Cost:<br>
+          <input type="text" name="MainOrgCurrentCost" id="MainOrgCurrentCost1" value = "in $">
+        </form> 
+        <input type="button" id="MainOrgCurrentCostBtn" value="set">
+      </div>
+
+      <div class="hero-unit">
+        <form>
+          donate to Project only Manager:<br>
+          <input type="text" name="ManageDonateToProAddrM" id="ManageDonateToProAddrM1" value = "addr">
+          <input type="text" name="ManageDonateToProTIDM"  id="ManageDonateToProTIDM1"  value = "tokenId">
+        </form> 
+        <input type="button" id="ManageDonateToProM1Btn" value="donate">
+      </div>
+
+      <div class="hero-unit">
+        <form>
+          unlock the Fai:<br>
+          <input type="text" name="VaultUnlock1" id="VaultUnlock1id" value = "tokenId">
+          <input type="text" name="VaultUnlock2" id="VaultUnlock2id" value = "orgAdd">
+          <input type="text" name="VaultUnlock3" id="VaultUnlock3id" value = "category">
+          <input type="text" name="VaultUnlock4" id="VaultUnlock4id" value = "idxOf">
+        </form> 
+        <input type="button" id="VaultUnlock1Btn" value="unlock">
+      </div>
+
+      <div class="hero-unit">
+        <form>
+          change Project Status:<br>
+          <input type="text" name="ManagProjectStatus" id="ManagProjectStatusId" value = "address of the porject">
+        </form> 
+        <input type="button" id="ManagProjectStatusBtn" value="change">
+      </div>
+  
+    </div>
+
+  
+    <!--<button onclick="document.getElementById('myImage').src='./images/ethereum_logo_2.png'">Turn off the light</button>-->
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="../scripts/ApproachManagement.js"></script>
+    <script src="../scripts/util.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

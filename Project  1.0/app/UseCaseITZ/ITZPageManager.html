@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ProjectLastVersion 0 1</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="../styles/main.css">
+    <!-- endbuild -->
+    
+  </head>
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div>
+      <aside class = "asideID" > <a href="../index.html"><img src="../images/ethereum_logo.png" alt="Mountain View" width="100%" height="700" id="myImage"></a> </aside>
+    </div>
+ 
+    <div class="hero-unitA">
+      <!-- Ma Methods -->
+      <h3> Management SECTION</h3>
+  
+      <div class="hero-unit">
+        <form>
+          Accept reg Request:<br>
+          <input type="text" name="orgadd" id="addofOrgRequest" value = "addr">      
+          <input type="button" id="acceptRegBtnID" value="accept Request">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="acceptR" id="accepthash" value = "" readonly>
+        </form> 
+      </div>
+  
+      <div class="hero-unit">
+        <form>
+          Reject reg Request:<br>
+          <input type="text" name="orgadd" id="addofOrgRequest2" value = "">      
+          <input type="button" id="RejectRegBtnID" value="Reject Request">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="RejectR" id="Rejecthash" value = "" readonly>
+        </form> 
+      </div> 
+  
+      <div class="hero-unit">
+        <form>
+          set Status of Token Smart contracts:<br>
+          <input type="text" name="orgadd" id="tokenSmartcontractsAdd1" value = "">
+          <input type="text" name="st" id="tokenSmartcontractsstatus" value = "">       
+          <input type="button" id="tokenSmartcontracts1Btn" value="set">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="returnH" id="tokenhash" value = "" readonly>
+        </form> 
+      </div> 
+
+      <div class="hero-unit">
+        <form>
+          Report with fund:<br>
+          <input type="text" name="orgAdd" id="ReportedAddwithS" value = "address">
+          <input type="button" id="ReportwithSbtn" value="report">
+          <input type="text" style="background-color:rgb(250, 244, 223);" name="reporthash" id="ReportedAddwithSHash" value = " " readonly>
+        </form>    
+      </div>
+  
+      <div class="hero-unit">
+        <form>
+          get Address of voting Contract:<br>
+          <input type="text" name="reportorgAdd222" id="reportedOrgAdd222" value = "">
+          <input type="button" id="getVC222" value="get">
+          <input type="text" style="background-color:rgb(250, 244, 223);"  name="vcAddress" id="returnVCaddress" value = " " readonly>
+        </form> 
+      </div>
+
+      <div class="hero-unit">
+        <form>
+          change status of Token smartcontracts<br>
+          <input type="text" name="orgAddr" id="changeTokenVerifiedOrgAddrId" value = "address">
+          <input type="text" name="statusofToken" id="changeTokenVerifiedOrgStatusId" value = "new status">
+          <input type="button" id="statusofTokenBtn" value="change">
+        </form>    
+      </div>
+      
+    </div> 
+    
+    <!--<button onclick="document.getElementById('myImage').src='./images/ethereum_logo_2.png'">Turn off the light</button>-->
+    
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="../scripts/UseCaseITZManage.js"></script>
+    <script src="../scripts/util.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
