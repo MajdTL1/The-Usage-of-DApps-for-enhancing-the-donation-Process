@@ -1,3 +1,4 @@
+// not up to date
 var TransparentCivilSociety = artifacts.require("./TransparentCivilSociety.sol");
 var TCSVotingSystem = artifacts.require("./TCSVotingSystem.sol");
 
