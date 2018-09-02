@@ -1,3 +1,4 @@
+// not up to date
 var TransparentCivilSociety = artifacts.require("./TransparentCivilSociety.sol");
 
 contract("TransparentCivilSociety", function(accounts) {
