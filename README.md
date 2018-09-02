@@ -1,11 +1,11 @@
 # The-Usage-of-DApps-for-enhancing-the-donation-Process
 
-## setup the ethereum Blockchain 
+### setup the ethereum Blockchain 
 
-use Ganache
+install Ganache
 
 
-## deploy the smart contracts
+### deploy the smart contracts
 
 	install Truffle with: npm install -g truffle
  
