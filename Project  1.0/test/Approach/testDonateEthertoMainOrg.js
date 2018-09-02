@@ -1,3 +1,4 @@
+// not up to date
 var DonationTokenOrg = artifacts.require("./contracts/Approach/DonationTokenOrg.sol");
 var MainOrg = artifacts.require("./contracts/Approach/MainOrg.sol");
 var FaiToken = artifacts.require("./contracts/Approach/FaiToken.sol");
