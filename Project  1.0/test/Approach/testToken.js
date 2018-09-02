@@ -1,3 +1,4 @@
+// not up to date
 var DonationTokenOrg = artifacts.require("./DonationTokenOrg.sol");
 
 contract("DonationTokenOrg Contract", function(accounts) {
