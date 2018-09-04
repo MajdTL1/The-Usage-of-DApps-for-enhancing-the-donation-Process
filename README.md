@@ -2,7 +2,7 @@
 
 ### setup the ethereum Blockchain 
 
-install Ganache
+install Ganache to simulate the ethereum Blockchain in memory
 
 
 ### deploy the smart contracts
