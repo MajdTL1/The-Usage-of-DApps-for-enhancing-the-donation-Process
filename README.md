@@ -7,7 +7,9 @@ install Ganache to simulate the ethereum Blockchain in memory
 
 ### deploy the smart contracts
 
-	install Truffle with: npm install -g truffle
+install Truffle with:
+
+		npm install -g truffle
  
  then run:
 	
