@@ -18,34 +18,15 @@ install Truffle with:
 		truffle migrate --reset
 
 ### localhost & front end
+
+	npm install
 	
-	npm install -g yo 
-		
-	npm install -g generator-webapp
-		
-	npm install -g gulp
-		
-	npm install -g bower
-
-	yo webapp 	
-		
-	additional features : nothing
-		 
-	choose your style of DSL: TDD
-
-do not overwrite anything
-		
-	overwrite bower.json :do not overwrite
-	overwrite gulpfile.js : do not overwrite
-	overwrite package.json: do not overwrite
-	overwrite main.css: do not overwrite
-	overwrite main.js: do  not overwrite
-	overwrite index.html: do not overwrite
+	bower install
 			
 	bower install web3
 	bower install sprintf
 	
 	gulp serve
 		
-open http://localhost:9000/ on chrome or brave
+open http://localhost:9000/ on brave with Metamask
     
