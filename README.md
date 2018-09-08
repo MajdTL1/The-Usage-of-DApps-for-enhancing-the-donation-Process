@@ -43,6 +43,7 @@ do not overwrite anything
 	overwrite index.html: do not overwrite
 			
 	bower install web3
+	bower install sprintf
 	
 	gulp serve
 		
