@@ -32,12 +32,15 @@ install Truffle with:
 	additional features : nothing
 		 
 	choose your style of DSL: TDD
-		overwrite bower.json :do not overwrite
-		overwrite gulpfile.js : do not overwrite
-		overwrite package.json: do not overwrite
-		overwrite main.css: do not overwrite
-		overwrite main.js: do  not overwrite
-		overwrite index.html: do not overwrite
+
+do not overwrite anything
+		
+	overwrite bower.json :do not overwrite
+	overwrite gulpfile.js : do not overwrite
+	overwrite package.json: do not overwrite
+	overwrite main.css: do not overwrite
+	overwrite main.js: do  not overwrite
+	overwrite index.html: do not overwrite
 			
 	bower install web3
 	
