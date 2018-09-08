@@ -19,6 +19,14 @@ install Truffle with:
 
 ### localhost & front end
 
+	npm install -g yo 
+
+	npm install -g generator-webapp
+
+	npm install -g gulp
+
+	npm install -g bower
+
 	npm install
 	
 	bower install
@@ -28,5 +36,5 @@ install Truffle with:
 	
 	gulp serve
 		
-open http://localhost:9000/ on brave with Metamask
+open http://localhost:9000/ on Brave with Metamask
     
